@@ -1,5 +1,12 @@
 import React from "react";
+import {
+  Navbar,
+  Homepage,
+  Companies,
+  Features,
   Meets,
+  Users,
+} from "./components";
 
 function App() {
   return (
@@ -12,6 +19,7 @@ function App() {
         <Companies />
         <Features />
         <Meets />
+        <Users />
       </main>
     </>
   );

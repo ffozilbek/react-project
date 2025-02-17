@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Homepage, Companies, Features } from "./components";
+  Meets,
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Homepage />
         <Companies />
         <Features />
+        <Meets />
       </main>
     </>
   );

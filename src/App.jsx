@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Homepage, Companies } from "./components";
+import { Navbar, Homepage, Companies, Features } from "./components";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <main>
         <Homepage />
         <Companies />
+        <Features />
       </main>
     </>
   );
